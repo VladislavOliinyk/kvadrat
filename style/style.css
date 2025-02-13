@@ -1,16 +1,17 @@
+/* Загальні стилі */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #E0F2F1; /* Light Teal 50 */
+    color: #004D40; /* Teal 900 */
     transition: background-color 0.3s, color 0.3s;
   }
   
   header {
     text-align: center;
     padding: 20px;
-    background-color: #6200ea;
+    background-color: #009688; /* Teal 500 */
     color: white;
   }
   
@@ -25,10 +26,12 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
   }
   
   .quadrant {
-    border: 2px solid #6200ea;
+    border: 2px solid #009688; /* Teal 500 */
     padding: 15px;
     border-radius: 10px;
     background-color: white;
@@ -45,9 +48,16 @@ body {
     height: 100px;
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #80CBC4; /* Teal 200 */
     border-radius: 5px;
     resize: none;
+    background-color: #E0F2F1; /* Light Teal 50 */
+    color: #004D40; /* Teal 900 */
+  }
+  
+  textarea:focus {
+    border-color: #009688; /* Teal 500 */
+    outline: none;
   }
   
   .controls {
@@ -61,18 +71,27 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #6200ea;
+    background-color: #009688; /* Teal 500 */
     color: white;
     transition: background-color 0.3s;
   }
   
   button:hover, select:hover {
-    background-color: #3700b3;
+    background-color: #00796B; /* Teal 700 */
   }
   
   .hints {
     text-align: center;
     margin: 20px;
+  }
+  
+  .hints button {
+    background-color: #80CBC4; /* Teal 200 */
+    color: #004D40; /* Teal 900 */
+  }
+  
+  .hints button:hover {
+    background-color: #4DB6AC; /* Teal 300 */
   }
   
   .hidden {
@@ -82,9 +101,54 @@ body {
   footer {
     text-align: center;
     padding: 10px;
-    background-color: #6200ea;
+    background-color: #009688; /* Teal 500 */
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+  
+  /* Темний режим */
+  body.dark-mode {
+    background-color: #004D40; /* Teal 900 */
+    color: #E0F2F1; /* Light Teal 50 */
+  }
+  
+  body.dark-mode header {
+    background-color: #00796B; /* Teal 700 */
+  }
+  
+  body.dark-mode .quadrant {
+    background-color: #00695C; /* Teal 800 */
+    border-color: #80CBC4; /* Teal 200 */
+    color: #E0F2F1; /* Light Teal 50 */
+  }
+  
+  body.dark-mode textarea {
+    background-color: #004D40; /* Teal 900 */
+    color: #E0F2F1; /* Light Teal 50 */
+    border-color: #80CBC4; /* Teal 200 */
+  }
+  
+  body.dark-mode button,
+  body.dark-mode select {
+    background-color: #00796B; /* Teal 700 */
+  }
+  
+  body.dark-mode button:hover,
+  body.dark-mode select:hover {
+    background-color: #009688; /* Teal 500 */
+  }
+  
+  body.dark-mode .hints button {
+    background-color: #4DB6AC; /* Teal 300 */
+    color: #004D40; /* Teal 900 */
+  }
+  
+  body.dark-mode .hints button:hover {
+    background-color: #26A69A; /* Teal 400 */
+  }
+  
+  body.dark-mode footer {
+    background-color: #00796B; /* Teal 700 */
   }
