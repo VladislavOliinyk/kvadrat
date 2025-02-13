@@ -1,0 +1,11 @@
+{
+    "title": "Quadrado de Descartes",
+    "quadrant1": "O que acontecerá se isso acontecer?",
+    "quadrant2": "O que acontecerá se isso não acontecer?",
+    "quadrant3": "O que não acontecerá se isso acontecer?",
+    "quadrant4": "O que não acontecerá se isso não acontecer?",
+    "clearButton": "Limpar todos os campos",
+    "saveButton": "Salvar resultado",
+    "themeButton": "Modo escuro",
+    "hint": "A técnica do 'Quadrado de Descartes' ajuda você a tomar decisões considerando a situação de quatro perspectivas. Preencha cada campo para entender as consequências de suas ações."
+  }

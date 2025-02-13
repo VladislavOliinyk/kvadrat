@@ -1,0 +1,11 @@
+{
+    "title": "Descartes' Square",
+    "quadrant1": "What will happen if this happens?",
+    "quadrant2": "What will happen if this does not happen?",
+    "quadrant3": "What will not happen if this happens?",
+    "quadrant4": "What will not happen if this does not happen?",
+    "clearButton": "Clear all fields",
+    "saveButton": "Save result",
+    "themeButton": "Dark mode",
+    "hint": "The 'Descartes' Square' technique helps you make decisions by considering the situation from four perspectives. Fill in each field to understand the consequences of your actions."
+  }

@@ -1,0 +1,11 @@
+{
+    "title": "Quadrato di Cartesio",
+    "quadrant1": "Cosa succederà se questo accade?",
+    "quadrant2": "Cosa succederà se questo non accade?",
+    "quadrant3": "Cosa non succederà se questo accade?",
+    "quadrant4": "Cosa non succederà se questo non accade?",
+    "clearButton": "Cancella tutti i campi",
+    "saveButton": "Salva risultato",
+    "themeButton": "Modalità scura",
+    "hint": "La tecnica del 'Quadrato di Cartesio' ti aiuta a prendere decisioni considerando la situazione da quattro prospettive. Compila ogni campo per comprendere le conseguenze delle tue azioni."
+  }

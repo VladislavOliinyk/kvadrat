@@ -1,0 +1,11 @@
+{
+    "title": "Descartes Karesi",
+    "quadrant1": "Bu olursa ne olur?",
+    "quadrant2": "Bu olmazsa ne olur?",
+    "quadrant3": "Bu olursa ne olmaz?",
+    "quadrant4": "Bu olmazsa ne olmaz?",
+    "clearButton": "Tüm alanları temizle",
+    "saveButton": "Sonucu kaydet",
+    "themeButton": "Karanlık mod",
+    "hint": "'Descartes Karesi' tekniği, durumu dört perspektiften değerlendirerek karar vermenize yardımcı olur. Eylemlerinizin sonuçlarını anlamak için her alanı doldurun."
+  }
