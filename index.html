@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Онлайн інструмент для використання методики 'Квадрат Декарта'.">
+  <title>Квадрат Декарта</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1 id="title">Квадрат Декарта</h1>
+    <img src="assets/images/thinking-person.jpg" alt="Людина роздумовує" id="thinking-person">
+  </header>
+
+  <main>
+    <div class="descartes-square">
+      <div class="quadrant" id="quadrant1">
+        <label for="input1" id="label1">Що станеться, якщо це станеться?</label>
+        <textarea id="input1" placeholder="Введіть відповідь..."></textarea>
+      </div>
+      <div class="quadrant" id="quadrant2">
+        <label for="input2" id="label2">Що станеться, якщо це не станеться?</label>
+        <textarea id="input2" placeholder="Введіть відповідь..."></textarea>
+      </div>
+      <div class="quadrant" id="quadrant3">
+        <label for="input3" id="label3">Що не станеться, якщо це станеться?</label>
+        <textarea id="input3" placeholder="Введіть відповідь..."></textarea>
+      </div>
+      <div class="quadrant" id="quadrant4">
+        <label for="input4" id="label4">Що не станеться, якщо це не станеться?</label>
+        <textarea id="input4" placeholder="Введіть відповідь..."></textarea>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="clear-btn">Очистити всі поля</button>
+      <button id="save-btn">Зберегти результат</button>
+      <button id="theme-btn">Темний режим</button>
+      <select id="language-select">
+        <option value="uk">Українська</option>
+        <option value="en">English</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Português</option>
+        <option value="tr">Türkçe</option>
+        <option value="he">עברית</option>
+        <option value="kz">Қазақша</option>
+      </select>
+    </div>
+
+    <div class="hints">
+      <button id="hint-btn">?</button>
+      <div id="hint-text" class="hidden">
+        <p>Методика "Квадрат Декарта" допомагає прийняти рішення, розглядаючи ситуацію з чотирьох сторін. Заповніть кожне поле, щоб зрозуміти наслідки ваших дій.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Квадрат Декарта</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
